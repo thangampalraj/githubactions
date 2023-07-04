@@ -5,6 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: echo "Hello World!"
-        run: git --version
-        run: env
+        run: |
+        echo "Hello World!"
+        git --version
+        env
